@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #F0FFFF;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #029D9D;
+    padding: 1.5vw 0;
+}
+.menu{
+    display: flex;
+    gap: 2vw ;
+}
+nav .logo h1{
+    font-size: 3rem;
+    color: white;
+}
+nav .menu h2{
+    color: aliceblue;
+
+}
+nav .button button{
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border: none;
+    color: #029D9D;
+    font-weight: 900;
+    font-size: 1rem;
+}
+.button button:hover{
+    color: white;
+    background-color: #065353;
+}
+.content .section{
+    height: 84vh;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.content .section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   /* padding-top: 12vh;
+   padding-left: 20vw; */
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.content .section-1 h1{
+    font-style: italic;
+    font-size: 4rem;
+}
+.content .section-1 h2{
+    font-size: 5rem;
+}
+.content .section-1 p{
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.content .section-1 .button-section{
+    display: flex;
+    gap: 1vw;
+    padding-top: 3rem;
+}
+.button-section button{
+    padding: 0.5vh 1vw ;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    border:1px solid rgb(168, 166, 166);
+}
+.button-section .button-1{
+    color: white;
+    background-color: #029D9D;
+    border: none;
+}
+.content .section-2{
+    margin-top: 4vh;
+    margin-right: 2vw;
+    height: 80vh;
+    width: 50%;
+    /* background-image: url(https://images.unsplash.com/photo-1568849676085-51415703900f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+     */
+    
+    background-position: top;
+    background-size: cover;
+   
+    /* background-color: red; */
+}
+.content .section-2 .background-image{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2rem;
+    background-image: url(https://images.unsplash.com/photo-1568849676085-51415703900f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+     background-position: top;
+     background-size: cover;
+}
+
+.destinations{
+    height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+    background-color: #F0FFFF;
+}
+.destinations .headings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.destinations .headings h1{
+    font-size: 3rem;
+    font-style: italic;
+
+}
+.destinations .headings h2{
+    font-weight: 900;
+    font-size: 3.5rem;
+
+}
+.place-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    gap: 1vw;
+    
+}
+
+.place .place-1 .box1{
+    height: 40vh;
+    width: 25vw;
+    /* background-color: red; */
+    border-radius: 1rem;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1601225612316-b4733315a717?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+
+}
+.place .place-1 .box2{
+    height: 40vh;
+    width: 25vw;
+    /* background-color: blue; */
+    border-radius: 1rem;
+    overflow: hidden;
+    background-image: url(https://images.unsplash.com/photo-1494949360228-4e9bde560065?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+
+}
+.place-1 .box1 h1{
+    color: white;
+    font-weight: 900;
+    transform: translateY(80%);
+    padding-left: 10vw;
+    margin-top: 15vh;
+}
+.place-1 .box2 h1{
+    font-weight: 900;
+    margin-top: 35vh;
+    color: white;
+    /* transform: translateY(790%); */
+    padding-left: 10vw;
+}
+.place-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 1vw;
+    color: white;
+    
+    
+}
+.place-2 .part-1{
+    height: 19vh;
+    width: 16.5vw;
+    /* background-color: yellow; */
+    border-radius: 1rem;
+    background-image: url(https://plus.unsplash.com/premium_photo-1668456012219-e3299fd0307e?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.place-2 .part-2{
+    height: 19vh;
+    width: 16.5vw;
+    /* background-color: yellow; */
+    border-radius: 1rem;
+    background-image: url(https://images.unsplash.com/photo-1718301702411-79babe48eb27?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+.place-2 .part-3{
+    height: 19vh;
+    width: 16.5vw;
+    /* background-color: yellow;/ */
+    border-radius: 1rem;
+    background-image: url(https://images.unsplash.com/photo-1719658415828-82c795a40bef?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.place-2 h1{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+
+}
+.aboutus{
+    display: flex;
+    gap: 1vw;
+}
+.aboutus .part-1{
+    margin-top: 7vh;
+    margin-left: 10vw;
+}
+.aboutus .part-1 h1{
+    font-size: 3rem;
+    font-style: italic;
+
+}
+.aboutus .part-1 h2{
+    font-size: 3rem;
+}
+
+.aboutus .part-1 p{
+    font-size: 1.4rem;
+
+}
+.aboutus .part-2{
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 100vh;
+    width: 50vw;
+   
+   
+
+}
+.aboutus h1{
+    margin-top: 2vh;
+}
+.aboutus h2{
+    margin-top: 2vh;
+}
+.aboutus p{
+    margin-top: 2vh;
+}
+h1 i{
+    background-color: #029D9D;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.booking{
+    font-size: 1.4rem;
+    padding: 2vh 4vw;
+    color: #F0FFFF;
+    background-color: #029D9D;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2vh;
+    font-weight: 900;
+    
+}
+
+
+.aboutus .part-2 .here{
+   
+height: 95.8vh;
+width: 40vw;
+transform: translateY(10%) scale(1);
+margin-left: 10vw;
+
+
+}
+.advantage .part-1{
+    display: flex;
+    
+   
+}
+
+.advantage .part-1 i{
+    height: 8vh;
+    border-radius: 50%;
+    font-size: 3rem;
+    border: 11px solid #029D9D ;
+}
+
+footer{
+    height: 55vh;
+    width: 100%;
+    background-color: #054c4c;
+    margin-top: 9vh;
+    background-image: url(Images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+footer .part-a{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding-top: 8vh;
+    color: aliceblue;
+
+}
+footer .part-a p{
+    padding-top: 2vh;
+    font-size: 1.3rem;
+}
+footer .part-a .get input{
+    margin-top: 2vh;
+    font-size: 1.3rem;
+    padding: 2vh 0;
+    text-align: center;
+    border-radius: 0.8rem;
+    border: none;
+
+} 
+footer .part-a .get .subscribe{
+    font-size: 1.3rem;
+    padding: 2vh 1vw;
+    padding-top: 2vh;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    background-color: #029D9D;
+    border: none;
+    margin-inline: -2vw;
+    color: #F0FFFF  
+}
+
+footer .part-b{
+    display: flex;
+    justify-content: center;
+    gap: 22.5vw;
+    padding-top: 4vh;
+    color: aliceblue;
+    align-items: center;
+}
+footer .part-b p{
+    font-size: 1.1rem;
+}
+footer .social{
+    display: flex;
+    gap: 2.5vw;
+}
+
+footer .social a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;   
+}
+
+
+
